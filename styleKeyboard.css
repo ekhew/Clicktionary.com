@@ -1,0 +1,231 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    height: 100vh;
+    padding: 5px 30px 5px 30px;
+    font-family: "Roboto", sans-serif;
+    background: rgb(255, 255, 255);
+    display:grid;
+    grid-template-columns: 0.3fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr 0.7fr;
+    grid-gap: 50px 50px;
+    grid-template-areas:
+        "logo navbar"
+        "intro intro"
+        "switches-heading switches-heading"
+        "switches switches";
+}
+
+.logo{
+    grid-area: logo;
+}
+
+.logo h1{
+    font-size: 50px;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.logo p{
+    text-align: right;
+}
+
+#logo-asterisk{
+    display: inline-block;
+    color: rgb(133, 235, 143);
+}
+
+.navbar{
+    grid-area: navbar;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    padding: 0px 50px 0px 30px;
+}
+
+.nav-links li a:link{
+    color: rgb(0, 0, 0);
+}
+
+.nav-links li a:visited{
+    color: rgb(0, 0, 0);
+}
+
+.nav-links li a:hover{
+    color: rgb(133, 235, 143);
+}
+
+.intro{
+    grid-area: intro;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    background-image: url("HomeScreenBanner.png");
+    background-blend-mode: color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.intro h2{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+}
+
+.intro a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.intro a:link{
+    color: rgb(133, 235, 143);
+}
+
+.intro a:visited{
+    color: rgb(133, 235, 143);
+}
+
+.intro a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.switches-heading{
+    grid-area: switches-heading;
+}
+
+.switches-heading h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.switches{
+    grid-area: switches;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+.switches .clicky{
+    height: 200px;
+    width: 200px;
+    background: rgb(240, 240, 240);
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    margin:0px 50px;
+}
+
+.switches .tactile{
+    height: 200px;
+    width: 200px;
+    background: rgb(240, 240, 240);
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    margin:0px 50px;
+}
+
+.switches .linear{
+    height: 200px;
+    width: 200px;
+    background: rgb(240, 240, 240);
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    margin:0px 50px;
+}
+
+.switches .clicky button{
+    height: 30px;
+    width: 50px;
+    background-color: rgb(152, 162, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.switches .clicky a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.switches .tactile button{
+    height: 30px;
+    width: 50px;
+    background-color: rgb(255, 186, 117);
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.switches .tactile a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.switches .linear button{
+    height: 30px;
+    width: 50px;
+    background-color: rgb(255, 134, 134);
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.switches .linear a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.switches .clicky h1{
+    font-size: 25px;
+    color: rgb(152, 162, 255);
+}
+
+.switches .tactile h1{
+    font-size: 25px;
+    color: rgb(255, 186, 117);
+}
+
+.switches .linear h1{
+    font-size: 25px;
+    color: rgb(255, 134, 134);
+}

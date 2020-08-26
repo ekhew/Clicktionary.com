@@ -1,0 +1,31 @@
+main{
+    height:100vh;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+}
+
+.box1{
+    background:blue;
+    grid-area:1/1/span 1/span 1;
+}
+
+.box2{
+    background:red;
+    grid-area:1/2/span 1/span 1;
+}
+
+.box3{
+    background:green;
+    grid-area:2/1/span 1/span 2;
+}
+
+.box4{
+    background:gray;
+    grid-area:3/1/span 1/span 2;
+}
+
+.box5{
+    background:orange;
+    grid-area:4/1/span 1/span 2;
+}
