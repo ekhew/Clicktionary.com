@@ -6,27 +6,98 @@
     <meta name="author" content="Edwin K.">
     <meta name="keywords" content="keyboards, GMK, custom, keycaps, case, switches, PCB"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Keyboard Website</title>
+    <link rel="shortcut icon" href="../favicon.ico" />
+    <title>Intro to Switches</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styleIntro.css">
   </head>
   <body>
-    <header>
-        <h1>What is a Keyboard Switch?</h1>
-        <p>Underneath every key of a mechanical keyboard is a small mechanism called a switch. The switch is what makes a mechanical keyboard "mechanical". Every keyboard switch falls under one of three types: clicky, tactile, and linear. Each type of switch vary in a way such that each have their own sound and feel.</p>
-    </header>
-    <main>
-        <h2>Parts of a Switch</h2>
-        <img src=".jpg" alt="Render of switch parts."/>
-        <h4>Housing</h4>
-        <p>The housing is the "case" of the switch. It is resposible for holding the entire mechanism together. The housing is consists of two parts, the upper and the bottom housing. The upper housing holds the stem of the switch in place, and the bottom housing connects the switch to the PCB of the keyboard.</p>
-        <h4>Stem</h4>
-        <p>The stem of the switch is the main piece that moves up and down when a key is pressed. On the top of the stem is a plus-shaped part where the keycap is connected to.</p>
-        <h4>Spring</h4>
-        <p>The spring is the part of the switch that allows the stem to bounce back up and "reset" to its original position prior to keypress.
-        </p>
-        <h4>Leaf</h4>
-        <p>The leaf is the part of the switch that allows the keyboard to detect when a switch has been pressed. The stem moves down and makes contact with the leaf, and this registers a keypress onto the PCB.</p>
-    </main>
-    <footer>
-    </footer>
+    <div class="container">
+        <div class="logo">
+          <h1>Click<div id="logo-asterisk">*</div>tionary.com</h1>
+          <p>Your guide to keyboard switches.</p>
+        </div>
+        <div class="navbar">
+          <nav>
+            <ul class="nav-links">
+              <li><a href="../Home/indexKeyboard.html">Home</a></li>
+              <li><a href="#">Learn</a></li>
+              <li><a href="Clicky/ClickySwitchpage.html">Clicky</a></li>
+              <li><a href="Tactile/TactileSwitchpage.html">Tactile</a></li>
+              <li><a href="Linear/LinearSwitchpage.html">Linear</a></li>
+              <li><a href="AboutPage.html">About</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="intro-heading">
+            <h2>What is a Keyboard Switch?</h2>
+        </div>
+        <div class="intro-explain">
+          <div class="intro-explain-background">
+            <p>The most important part of a mechanical keyboard is the switch beneath every one of its keys. They are the main parts responsible for the sound and feel of an entire keyboard. There are main three types of mechanical switches that exist: clicky, tactile, and linear. Each type has their own unique feel and sound when pressed. </p>
+          </div>
+        </div>
+        <div class="intro-parts">
+          <div class="intro-parts-background">
+            <div class="parts-picture">
+              <img src="SwitchAnatomy.jpg" alt="Render of switch parts."/>
+            </div>
+            <div class="parts-top-house">
+              <h4>1. Top Housing</h4>
+              <p>The housing is the "case" of the switch. It is resposible for holding the entire mechanism together. The housing is consists of two parts, the upper and the bottom housing. The upper housing holds the stem of the switch in place.</p>
+            </div>
+            <div class="parts-stem">
+              <h4>2. Stem</h4>
+              <p>The stem of the switch is the main piece that moves up and down when a key is pressed. On the top of the stem is a cross-shaped part where the keycap is connected to.</p>
+            </div>
+            <div class="parts-spring">
+              <h4>3. Leaf</h4>
+              <p>The leaf is the part of the switch that allows the keyboard to detect when a switch has been pressed. The stem moves down and makes contact with the leaf, registering a keypress onto the PCB.
+              </p>
+            </div>
+            <div class="parts-leaf">
+              <h4>4. Spring</h4>
+              <p>The spring is the part of the switch that allows the stem to bounce back up and "reset" to its original position after a keypress. </p>
+            </div>
+            <div class="parts-bottom-house">
+              <h4>5. Bottom Housing</h4>
+              <p>The bottom housing is the second half of a switch's housing. The bottom housing connects the switch to the PCB of the keyboard.</p>
+            </div>
+          </div>
+        </div>
+        <div class="intro-types-heading">
+          <h2>Switch Types</h2>
+        </div>
+        <div class="intro-types">
+          <div class="intro-clicky">
+            <h4>Clicky</h4>
+            <img src="Images/ClickySwitchDiagram.gif" alt="Diagram of a clicky switch."/>
+            <p>Clicky switches make an audible click sound when pressed. They also have a tactile bump that can be felt on keypress.</p>
+          </div>
+          <div class="intro-tactile">
+            <h4>Tactile</h4>
+            <img src="Images/TactileSwitchDiagram.gif" alt="Diagram of a tactile switch."/>
+            <p>Tactile switches have a bump that can be felt when pressed. These switches are generally preferred for either gaming or typing.</p>
+          </div>
+          <div class="intro-linear">
+            <h4>Linear</h4>
+            <img src="Images/LinearSwitchDiagram.gif" alt="Diagram of a linear switch."/>
+            <p>Linear switches are switches that feel smooth from top to bottom when pressed. There is no bump or click in the middle of the switch that can be felt. Linear switches are generally preferred for gaming.</p>
+          </div>
+        </div>
+        <div class="intro-specs-heading">
+          <h2>Switch Specifications</h2>
+        </div>
+        <div class="intro-specs">
+          <div class="intro-specs-background">
+            <ul>
+              <li>Every switch is unique in its own way due to their different specs. Here are some definitions for switch specs:</li>
+              <li><b>Key Travel</b>, measured in millimeters, is the distance the stem travels when the switch is pressed.</li>
+              <li><b>Weight</b>, measured in grams, is the amount of force needed to activate the switch.</li>
+              <li><b>Life Span</b>, measured in the number of key presses, indicates how durable a switch is.</li>
+            </ul>
+          </div> 
+        </div>  
+    </div>
   </body>
 </html>

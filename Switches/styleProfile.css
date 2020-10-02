@@ -1,0 +1,235 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    height: 100vh;
+    padding: 0em 2.5em;
+    font-family: "Roboto", sans-serif;
+    background: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-gap: 2.5em 2.5em;
+    grid-template-areas:
+        "logo navbar"
+        "switch-profile switch-profile";
+}
+
+.logo{
+    grid-area: logo;
+}
+
+.logo h1{
+    font-size: 3rem;
+    text-align: right;
+    margin-bottom: 0em;
+}
+
+.logo p{
+    text-align: right;
+}
+
+#logo-asterisk{
+    display: inline-block;
+    color: rgb(133, 235, 143);
+}
+
+.navbar{
+    grid-area: navbar;
+    border-bottom: 0.2em solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    font-size: 1.4rem;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    padding: 0em 2em 0em 1em;
+}
+
+.nav-links li a:link{
+    color: rgb(0, 0, 0);
+}
+
+.nav-links li a:visited{
+    color: rgb(0, 0, 0);
+}
+
+.nav-links li a:hover{
+    color: rgb(133, 235, 143);
+}
+
+.switch-profile{
+    grid-area: switch-profile;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.profile-background{
+    height: 85%;
+    width: 85%;
+    padding: 1em;
+    background: rgb(235, 235, 235);
+    border-radius: 0.5em;
+    box-shadow: 0em 0em 0.5em gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1em 1em;
+    grid-template-areas:
+        "profile-name . ."
+        "profile-picture profile-specialties profile-test"
+        "profile-picture profile-specs profile-test"
+        "profile-picture profile-specs profile-shop"
+        "profile-info profile-specs profile-shop";
+}
+
+.profile-name{
+    grid-area: profile-name;
+}
+
+.profile-name h1{
+    margin: 0em;
+    text-align: center;
+}
+
+#asterisk-clicky{
+    display: inline-block;
+    color: rgb(152, 162, 255);
+}
+
+#asterisk-tactile{
+    display: inline-block;
+    color: rgb(255, 175, 100);
+}
+
+#asterisk-linear{
+    display: inline-block;
+    color: rgb(255, 134, 134);
+}
+
+.profile-picture{
+    grid-area: profile-picture;
+    border-radius: 0.5em;
+    background: white;
+    box-shadow: 0em 0em 0.2em gray;
+}
+
+.profile-picture img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5em;
+}
+
+.profile-info{
+    grid-area: profile-info;
+    border-radius: 0.5em;
+    background: white;
+    padding: 1em;
+    box-shadow: 0em 0em 0.2em gray;
+}
+
+.profile-info h3{
+    margin: 0em;
+}
+
+.profile-specialties{
+    grid-area: profile-specialties;
+    border-radius: 0.5em;
+    background: white;
+    padding: 1em;
+    box-shadow: 0em 0em 0.2em gray;
+}
+
+.profile-specialties h3{
+    margin: 0em;
+}
+
+.profile-specialties li{
+    padding: 0.2em;
+}
+
+.profile-specs{
+    grid-area: profile-specs;
+    background: white;
+    border-radius: 0.5em;
+    padding: 1em;
+    box-shadow: 0em 0em 0.2em gray;
+}
+
+.profile-specs h3{
+    margin: 0em;
+}
+
+.profile-specs table{
+    margin-top: 1em;
+    height: 80%;
+}
+
+.profile-specs table, tr, td{
+    border-collapse: collapse;
+    text-align: left;
+    padding-left: 3em;
+}
+
+.profile-shop{
+    grid-area: profile-shop;
+    background: white;
+    border-radius: 0.5em;
+    padding: 1em;
+    box-shadow: 0em 0em 0.2em gray;
+}
+
+.profile-shop h3{
+    margin: 0em;
+}
+
+.profile-shop li{
+    padding: 0.2em;
+}
+
+.profile-shop a{
+    text-decoration: underline;
+}
+
+.profile-shop a:link{
+    color: black;
+}
+
+.profile-shop a:visited{
+    color: black;
+}
+
+.profile-shop a:hover{
+    color: rgb(133, 235, 143);
+}
+
+.profile-test{
+    grid-area: profile-test;
+    background: white;
+    border-radius: 0.5em;
+    padding: 1em;
+    box-shadow: 0em 0em 0.2em gray;
+}
+
+.profile-test h3{
+    margin: 0em;
+}
+
+.profile-test iframe{
+    height: 85%;
+    width: 100%;
+    margin-top: 1em;
+    border-radius: 0.5em;
+}

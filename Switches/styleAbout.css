@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    height: 100vh;
+    padding: 0em 2.5em;
+    font-family: "Roboto", sans-serif;
+    background: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    grid-template-rows: 0.1fr 0.1fr 1fr;
+    grid-gap: 2.5em 2.5em;
+    grid-template-areas:
+        "logo navbar"
+        "about-heading about-heading"
+        "about about";
+}
+
+.logo{
+    grid-area: logo;
+}
+
+.logo h1{
+    font-size: 3em;
+    text-align: right;
+    margin-bottom: 0em;
+}
+
+.logo p{
+    text-align: right;
+}
+
+#logo-asterisk{
+    display: inline-block;
+    color: rgb(133, 235, 143);
+}
+
+.navbar{
+    grid-area: navbar;
+    border-bottom: 0.2em solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    font-size: 1.4em;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    padding: 0em 2em 0em 1em;
+}
+
+.nav-links li a:link{
+    color: rgb(0, 0, 0);
+}
+
+.nav-links li a:visited{
+    color: rgb(0, 0, 0);
+}
+
+.nav-links li a:hover{
+    color: rgb(133, 235, 143);
+}
+
+.about-heading{
+    grid-area: about-heading;
+    text-align: center;
+}
+
+.about-heading h2{
+    padding: 0em;
+    margin: 0em;
+}
+
+.about{
+    grid-area: about;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+.about-background{
+    width: 40%;
+    padding: 1em;
+    background: rgb(235, 235, 235);
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 0.2em gray;
+}
+
+.about-content{
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 1.2em;
+    box-shadow: 0em 0em 0.2em gray;
+}
+
+.about-content h2{
+    margin: 0em;
+}
