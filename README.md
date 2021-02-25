@@ -9,7 +9,7 @@ This project was created as a way for me to practice creating websites using HTM
 
 ![Screenshot (776)](https://user-images.githubusercontent.com/56172352/109105213-72cf7700-76fb-11eb-8434-1e7b9f021d73.png)
 
-![Screenshot (777)](https://user-images.githubusercontent.com/56172352/109105217-7662fe00-76fb-11eb-8bb0-c3c4e058350c.png)
+![Screenshot (781)](https://user-images.githubusercontent.com/56172352/109105304-a7dbc980-76fb-11eb-9439-c3fbabf7acd1.png)
 
 ![Screenshot (779)](https://user-images.githubusercontent.com/56172352/109105220-77942b00-76fb-11eb-8bbe-038bb7825ae9.png)
 
