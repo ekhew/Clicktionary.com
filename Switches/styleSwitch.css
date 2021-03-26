@@ -153,7 +153,8 @@ body{
     grid-area: clicky-list;
     margin-bottom: 1em;
     margin-top: 0em;
-    padding: 0em;
+    padding-left: 1em;
+    padding-right: 1em;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -166,8 +167,8 @@ body{
     width: 180px;
     background: rgb(235, 235, 235);
     margin-top: 0em;
-    margin-bottom: 1em;
-    margin-right: 2em;
+    margin-bottom: 2.5em;
+    margin-right: 2.5em;
     border-radius: 0.5em;
     box-shadow: 0em 0em 0.2em gray;
     display: flex;
@@ -194,7 +195,7 @@ body{
 }
 
 .type-list-items p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: black;
     margin-top: 0.7em;
 }
